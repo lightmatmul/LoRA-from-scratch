@@ -1,13 +1,6 @@
 # LoRA-from-scratch
 This repository contains a PyTorch implementation of Low-Rank Adaptation (LoRA), applied to the task of classifying MNIST digits. The implementation demonstrates how LoRA can be integrated into a neural network and fine-tuned on specific tasks, allowing for efficient training and memory optimizations.
 
-## Prerequisites
-
-- Python 3.6+
-- PyTorch 1.5+
-- torchvision
-- tqdm (for progress bars)
-
 ## Installation
 
 First, clone the repository to your local machine:
