@@ -1,6 +1,12 @@
 # LoRA-from-scratch
 This repository contains a PyTorch implementation of Low-Rank Adaptation (LoRA), applied to the task of classifying MNIST digits. The implementation demonstrates how LoRA can be integrated into a neural network and fine-tuned on specific tasks, allowing for efficient training and memory optimizations.
 
+## How LoRA Works
+
+![LoRA Weight Update Diagram](5dfbd169-eb7e-41e1-a050-556ccd6fb679_1600x672.jpg)
+
+LoRA introduces two small matrices, \( A \) and \( B \), which together approximate the weight update matrix \( \Delta W \). The inner dimension \( r \) of these matrices is a hyperparameter that controls the rank and complexity of the approximation. This technique modifies the standard training process by updating only these smaller matrices, rather than the entire weight matrix, which can significantly reduce memory usage and computational costs.
+
 ## Installation
 
 First, clone the repository to your local machine:
