@@ -3,7 +3,7 @@ This repository contains a PyTorch implementation of Low-Rank Adaptation (LoRA),
 
 ## How LoRA Works
 
-LoRA introduces two small matrices, \( A \) and \( B \), which together approximate the weight update matrix \( \Delta W \). The inner dimension \( r \) of these matrices is a hyperparameter that controls the rank and complexity of the approximation. This technique modifies the standard training process by updating only these smaller matrices, rather than the entire weight matrix, which can significantly reduce memory usage and computational costs.
+LoRA introduces two small matrices, A and B, which together approximate the weight update matrix ΔW . The inner dimension r of these matrices is a hyperparameter that controls the rank and complexity of the approximation. This technique modifies the standard training process by updating only these smaller matrices, rather than the entire weight matrix, which can significantly reduce memory usage and computational costs.
 
 ![LoRA Weight Update Diagram](LoRA_diagram.jpg)
 
