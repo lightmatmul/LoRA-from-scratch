@@ -12,7 +12,7 @@ LoRA introduces two small matrices, A and B, which together approximate the weig
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/lightmatmul/LoRA-MNIST-PyTorch.git
+git clone https://github.com/lightmatmul/LoRA-from-scratch.git
 cd LoRA-from-scratch
 ```
 
