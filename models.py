@@ -4,7 +4,7 @@ from utils import LoRAParametrization
 
 class NeuralNet(nn.Module):
     """
-    An overly complex network designed for MNIST classification to demonstrate the effect of LoRA.
+    An NN designed for MNIST classification to demonstrate the effect of LoRA.
     """
     def __init__(self, hidden_size_1=1000, hidden_size_2=2000):
         super(NeuralNet, self).__init__()
